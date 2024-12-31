@@ -62,6 +62,35 @@
     		<artifactId>spring-middleware</artifactId>
     		<version>0.0.10</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.frontegg.sdk/sso -->
+		<dependency>
+			<groupId>com.frontegg.sdk</groupId>
+			<artifactId>sso</artifactId>
+			<version>0.0.10</version>
+		</dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.frontegg.sdk/events -->
+		<dependency>
+			<groupId>com.frontegg.sdk</groupId>
+			<artifactId>events</artifactId>
+			<version>0.0.10</version>
+		</dependency>
+
+       <!-- https://mvnrepository.com/artifact/com.frontegg.sdk.spring/spring-autoconfigure -->
+		<dependency>
+			<groupId>com.frontegg.sdk.spring</groupId>
+			<artifactId>spring-autoconfigure</artifactId>
+			<version>0.0.10</version>
+		</dependency>
+
+		 <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>4.0.1</version>
+        <scope>provided</scope>
+    </dependency>
+
 	</dependencies>
 
 	<build>
